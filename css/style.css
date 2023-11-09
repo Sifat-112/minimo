@@ -1,0 +1,139 @@
+/*commom start0*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'playfair display',serif ;
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 30px 0;
+/*	border: 1px solid red ;*/
+}
+  .container{
+        margin: 0 auto;
+        width: 90%;
+/*        border: 1px solid red;*/
+        overflow: hidden;
+  }
+  .logo{ 
+  	margin-top: 10px;
+  	width:13%;
+/*  	border: 1px solid green;*/
+  	float: left;
+   }
+  .logo a{}
+  .logo a img{
+  	width:100%;
+  }
+  .menu{
+  	width:60%;
+/*  	border: 1px solid green;*/
+  	float: right;
+  }
+  .menu ul{
+  	float: right;
+  }
+  .menu ul li{
+  	list-style: none;
+  	float: left;
+  }
+  .menu ul li a{
+  	display: inline-block;
+  	margin: 0 50px;
+  	color: #626262;
+  	text-decoration: none; 	
+  	 border-bottom: 1px solid transparent;
+  	 transition: .33s;
+  }
+  .menu ul li a:hover{
+  	  border-bottom: 1px solid #626262;
+  }
+  .menu ul li:last-child a{
+  	margin-right: 0;
+  }
+/*header end*/
+/*banner start*/
+.banner{}
+.b-img{}
+.b-img img{
+  width:100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+  padding: 100px 0 20px;
+}
+.container2{
+  width: 80%;
+  margin: 0 auto;
+/*  border: 1px solid red;*/
+  overflow: hidden;
+}
+.c-light{
+  margin: 0;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 14px;
+  font-weight: 300; 
+  text-transform: uppercase;
+}
+.c-title{
+  margin: 25px 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.c-text{
+  margin: 0;
+  line-height: 24px;
+}
+.mt-45{
+  margin-top: 45px;
+}
+/*getaway end*/
+/*blog start*/
+.blog{
+  padding-bottom: 100px;
+}
+.s-blog{
+  margin-top: 80px;
+  width: 47%;
+/*  border:1px solid red;*/
+  float: left;
+}
+.s-blog:nth-child(even){
+  margin-left: 6%;
+}
+.s-img{
+  margin-bottom: 25px;
+}
+.s-img img{
+  width: 100%;
+}
+/*newsletter start*/
+
+.newsletter {
+    margin: 100px 0;
+    background-color: #f0f0f0;
+}
+.content{
+	text-align: center;
+	padding: 50px 0;
+}
+.div{
+	display: block;
+}
+.form input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: 0;
+    width: 300px;
+    font-size: 16px;
+    padding: 10px 40px 10px 10px;
+}
+/*newsletter end*/
+
+/*blog end*/
